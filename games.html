@@ -1,0 +1,2984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX - Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Add these lines to your HTML head section -->
+<link rel="stylesheet" href="admin-panel.css">
+<script src="user-check.js"></script>
+<script src="admin-panel.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.svg" alt="CodeX Logo">
+            <h1>CodeX</h1>
+        </div>
+            
+        <nav>
+            <ul>
+                <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="games.html" class="active"><i class="fas fa-gamepad"></i> Games</a></li>
+                <li><a href="music.html"><i class="fas fa-music"></i> Music</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="system.html"><i class="fas fa-microchip"></i> System</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section class="content">
+            <h2><i class="fas fa-gamepad"></i> Game Library</h2>
+            <div class="search-container">
+                <div class="search-bar">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="game-search" placeholder="Search for games...">
+                    <button id="clear-search" class="clear-search-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <p>Browse our extensive collection of games. Click "Play Now" to launch any game in a new tab. All games are optimized to work in restricted environments.</p>
+        </section>
+           
+        <section class="games-grid">
+            <!-- New games list with consistent layout -->
+            <div class="game-card">
+                <h3>1on1soccer</h3>
+                <button onclick="openGame('games/3kh0s/1on1soccer/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>1v1lol</h3>
+                <button onclick="openGame('games/3kh0s/1v1lol/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>3line</h3>
+                <button onclick="openGame('3line/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>10minutestilldawn</h3>
+                <button onclick="openGame('games/3kh0s/10minutestilldawn/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>2048</h3>
+                <button onclick="openGame('games/3kh0s/2048/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>abudathealien</h3>
+                <button onclick="openGame('games/3kh0s/abudathealien/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>aceattorney</h3>
+                <button onclick="openGame('games/3kh0s/aceattorney/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>achievementunlocked</h3>
+                <button onclick="openGame('games/3kh0s/achievementunlocked/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>achievementunlocked2</h3>
+                <button onclick="openGame('games/3kh0s/achievementunlocked2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>achievementunlocked3</h3>
+                <button onclick="openGame('games/3kh0s/achievementunlocked3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>adofai</h3>
+                <button onclick="openGame('games/3kh0s/adofai/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>advancewars</h3>
+                <button onclick="openGame('games/3kh0s/advancewars/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>advancewars2</h3>
+                <button onclick="openGame('games/3kh0s/advancewars2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>advancewarsdayofruin</h3>
+                <button onclick="openGame('games/3kh0s/advancewarsdayofruin/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>adventurecapitalist</h3>
+                <button onclick="openGame('games/3kh0s/adventurecapitalist/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>adventuretime</h3>
+                <button onclick="openGame('games/3kh0s/adventuretime/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ageofwar</h3>
+                <button onclick="openGame('games/3kh0s/ageofwar/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ageofwar2</h3>
+                <button onclick="openGame('games/3kh0s/ageofwar2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            
+            <div class="game-card">
+                <h3>alteredbeast</h3>
+                <button onclick="openGame('games/3kh0s/alteredbeast/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>amazingropepolice</h3>
+                <button onclick="openGame('games/3kh0s/amazingropepolice/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>amongus</h3>
+                <button onclick="openGame('games/3kh0s/amongus/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>amorphous</h3>
+                <button onclick="openGame('games/3kh0s/amorphous/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>animalcrossingwildworld</h3>
+                <button onclick="openGame('games/3kh0s/animalcrossingwildworld/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>aquaparkslides</h3>
+                <button onclick="openGame('games/3kh0s/aquaparkslides/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>backrooms2d</h3>
+                <button onclick="openGame('games/3kh0s/backrooms2d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>badicecream</h3>
+                <button onclick="openGame('games/3kh0s/badicecream/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>badicecream2</h3>
+                <button onclick="openGame('games/3kh0s/badicecream2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>badicecream3</h3>
+                <button onclick="openGame('games/3kh0s/badicecream3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>badpiggies</h3>
+                <button onclick="openGame('games/3kh0s/badpiggies/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>badtimesimulator</h3>
+                <button onclick="openGame('games/3kh0s/badtimesimulator/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>baldisbasics</h3>
+                <button onclick="openGame('games/3kh0s/baldisbasics/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ballisticchickens</h3>
+                <button onclick="openGame('games/3kh0s/ballisticchickens/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>balloonrun</h3>
+                <button onclick="openGame('games/3kh0s/balloonrun/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>banjokazooie</h3>
+                <button onclick="openGame('games/3kh0s/banjokazooie/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>banjopilot</h3>
+                <button onclick="openGame('games/3kh0s/banjopilot/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>banjotooie</h3>
+                <button onclick="openGame('games/3kh0s/banjotooie/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>basketbrosio</h3>
+                <button onclick="openGame('games/3kh0s/basketbrosio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>basketrandom</h3>
+                <button onclick="openGame('games/3kh0s/basketrandom/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>battlebeavers</h3>
+                <button onclick="openGame('games/3kh0s/battlebeavers/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>battleships</h3>
+                <button onclick="openGame('games/3kh0s/battleships/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>battletoads</h3>
+                <button onclick="openGame('games/3kh0s/battletoads/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bigredbutton</h3>
+                <button onclick="openGame('games/3kh0s/bigredbutton/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bikechamp</h3>
+                <button onclick="openGame('games/3kh0s/bikechamp/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bikechamp2</h3>
+                <button onclick="openGame('games/3kh0s/bikechamp2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bitlife</h3>
+                <button onclick="openGame('games/3kh0s/bitlife/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bloxors</h3>
+                <button onclick="openGame('games/3kh0s/bloxors/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bobtherobber2</h3>
+                <button onclick="openGame('games/3kh0s/bobtherobber2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bomberman</h3>
+                <button onclick="openGame('games/3kh0s/bomberman/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bowsersinsidestory</h3>
+                <button onclick="openGame('games/3kh0s/bowsersinsidestory/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>boxingphysics2</h3>
+                <button onclick="openGame('games/3kh0s/boxingphysics2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>boxingrandom</h3>
+                <button onclick="openGame('games/3kh0s/boxingrandom/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>breakingthebank</h3>
+                <button onclick="openGame('games/3kh0s/breakingthebank/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>btd</h3>
+                <button onclick="openGame('games/3kh0s/btd/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bubblespinner</h3>
+                <button onclick="openGame('games/3kh0s/bubblespinner/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>bubbletanks2</h3>
+                <button onclick="openGame('games/3kh0s/bubbletanks2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>burgerandfrights</h3>
+                <button onclick="openGame('games/3kh0s/burgerandfrights/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>burritobison</h3>
+                <button onclick="openGame('games/3kh0s/burritobison/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cactusmccoy</h3>
+                <button onclick="openGame('games/3kh0s/cactusmccoy/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cactusmccoy2</h3>
+                <button onclick="openGame('games/3kh0s/cactusmccoy2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>canopy</h3>
+                <button onclick="openGame('games/3kh0s/canopy/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cars2</h3>
+                <button onclick="openGame('games/3kh0s/cars2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>castlevania</h3>
+                <button onclick="openGame('games/3kh0s/castlevania/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>castlevaniaariaofsorrow</h3>
+                <button onclick="openGame('games/3kh0s/castlevaniaariaofsorrow/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>castlevaniadawnofsorrow</h3>
+                <button onclick="openGame('games/3kh0s/castlevaniadawnofsorrow/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>castlevaniaiii</h3>
+                <button onclick="openGame('games/3kh0s/castlevaniaiii/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>castlevaniaorderofecclesia</h3>
+                <button onclick="openGame('games/3kh0s/castlevaniaorderofecclesia/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cavechaos</h3>
+                <button onclick="openGame('games/3kh0s/cavechaos/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>celeste</h3>
+                <button onclick="openGame('games/3kh0s/celeste/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cellmachine</h3>
+                <button onclick="openGame('games/3kh0s/cellmachine/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>championisland</h3>
+                <button onclick="openGame('games/3kh0s/championisland/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>changetype</h3>
+                <button onclick="openGame('games/3kh0s/changetype/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cheesedreams</h3>
+                <button onclick="openGame('games/3kh0s/cheesedreams/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chess</h3>
+                <button onclick="openGame('games/3kh0s/chess/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chibiknight</h3>
+                <button onclick="openGame('games/3kh0s/chibiknight/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chisel</h3>
+                <button onclick="openGame('games/3kh0s/chisel/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chisel2</h3>
+                <button onclick="openGame('games/3kh0s/chisel2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chooseyourweapon</h3>
+                <button onclick="openGame('games/3kh0s/chooseyourweapon/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chooseyourweapon2</h3>
+                <button onclick="openGame('games/3kh0s/chooseyourweapon2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chooseyourweapon3</h3>
+                <button onclick="openGame('games/3kh0s/chooseyourweapon3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>chronotrigger</h3>
+                <button onclick="openGame('games/3kh0s/chronotrigger/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>clickerheroes</h3>
+                <button onclick="openGame('games/3kh0s/clickerheroes/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>clusterrush</h3>
+                <button onclick="openGame('games/3kh0s/clusterrush/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>colorswitch</h3>
+                <button onclick="openGame('games/3kh0s/colorswitch/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>connect4</h3>
+                <button onclick="openGame('games/3kh0s/connect4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>contra</h3>
+                <button onclick="openGame('games/3kh0s/contra/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>contraiii</h3>
+                <button onclick="openGame('games/3kh0s/contraiii/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>controlcraft2</h3>
+                <button onclick="openGame('games/3kh0s/controlcraft2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cookieclicker</h3>
+                <button onclick="openGame('games/3kh0s/cookieclicker/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cookingmama</h3>
+                <button onclick="openGame('games/3kh0s/cookingmama/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>corporationinc</h3>
+                <button onclick="openGame('games/3kh0s/corporationinc/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>crazytunnel3d</h3>
+                <button onclick="openGame('games/3kh0s/crazytunnel3d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>crimsonfantasia</h3>
+                <button onclick="openGame('games/3kh0s/crimsonfantasia/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>crossy</h3>
+                <button onclick="openGame('games/3kh0s/crossy/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>crushthecastle</h3>
+                <button onclick="openGame('games/3kh0s/crushthecastle/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>crushthecastle2</h3>
+                <button onclick="openGame('games/3kh0s/crushthecastle2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>csgoclicker</h3>
+                <button onclick="openGame('games/3kh0s/csgoclicker/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cubefield</h3>
+                <button onclick="openGame('games/3kh0s/cubefield/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>cuttherope</h3>
+                <button onclick="openGame('games/3kh0s/cuttherrope/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dadish</h3>
+                <button onclick="openGame('games/3kh0s/dadish/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dadish2</h3>
+                <button onclick="openGame('games/3kh0s/dadish2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dadish3</h3>
+                <button onclick="openGame('games/3kh0s/dadish3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dbzsupersonicwarriors</h3>
+                <button onclick="openGame('games/3kh0s/dbzsupersonicwarriors/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>deathrun3d</h3>
+                <button onclick="openGame('games/3kh0s/deathrun3d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>defendthetank</h3>
+                <button onclick="openGame('games/3kh0s/defendthetank/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>diddykongracing</h3>
+                <button onclick="openGame('games/3kh0s/diddykongracing/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dinogame</h3>
+                <button onclick="openGame('games/3kh0s/dinogame/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ditto</h3>
+                <button onclick="openGame('games/3kh0s/ditto/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dogeminer</h3>
+                <button onclick="openGame('games/3kh0s/dogeminer/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>donkeykong</h3>
+                <button onclick="openGame('games/3kh0s/donkeykong/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>donkeykong64</h3>
+                <button onclick="openGame('games/3kh0s/donkeykong64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>donkeykongcountry</h3>
+                <button onclick="openGame('games/3kh0s/donkeykongcountry/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>donkeykongcountry2</h3>
+                <button onclick="openGame('games/3kh0s/donkeykongcountry2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>donkeykongcountry3</h3>
+                <button onclick="openGame('games/3kh0s/donkeykongcountry3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>donkeykongland</h3>
+                <button onclick="openGame('games/3kh0s/donkeykongland/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>doodledefender</h3>
+                <button onclick="openGame('games/3kh0s/doodledefender/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>doodlejump</h3>
+                <button onclick="openGame('games/3kh0s/doodlejump/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>doom</h3>
+                <button onclick="openGame('games/3kh0s/doom/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>doom2</h3>
+                <button onclick="openGame('games/3kh0s/doom2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>doom64</h3>
+                <button onclick="openGame('games/3kh0s/doom64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dragonboy2</h3>
+                <button onclick="openGame('games/3kh0s/dragonboy2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>driftboss</h3>
+                <button onclick="openGame('games/3kh0s/driftboss/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>drifthunters</h3>
+                <button onclick="openGame('games/3kh0s/drifthunters/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>driftmania</h3>
+                <button onclick="openGame('games/3kh0s/driftmania/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>drilldozer</h3>
+                <button onclick="openGame('games/3kh0s/drilldozer/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>drmario</h3>
+                <button onclick="openGame('games/3kh0s/drmario/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducklife</h3>
+                <button onclick="openGame('games/3kh0s/ducklife/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducklife2</h3>
+                <button onclick="openGame('games/3kh0s/ducklife2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducklife3</h3>
+                <button onclick="openGame('games/3kh0s/ducklife3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducklife4</h3>
+                <button onclick="openGame('games/3kh0s/ducklife4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducklife5</h3>
+                <button onclick="openGame('games/3kh0s/ducklife5/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducklife6</h3>
+                <button onclick="openGame('games/3kh0s/ducklife6/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ducktales</h3>
+                <button onclick="openGame('games/3kh0s/ducktales/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dukenukem64</h3>
+                <button onclick="openGame('games/3kh0s/dukenukem64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>dukenukemadvance</h3>
+                <button onclick="openGame('games/3kh0s/dukenukemadvance/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>eagler1.8</h3>
+                <button onclick="openGame('games/3kh0s/eagler1.8/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>earthbound</h3>
+                <button onclick="openGame('games/3kh0s/earthbound/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>electricbox</h3>
+                <button onclick="openGame('games/3kh0s/electricbox/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>electricman2</h3>
+                <button onclick="openGame('games/3kh0s/electricman2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>epicbattlefantasy</h3>
+                <button onclick="openGame('games/3kh0s/epicbattlefantasy/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>epicbattlefantasy2</h3>
+                <button onclick="openGame('games/3kh0s/epicbattlefantasy2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>epicbattlefantasy3</h3>
+                <button onclick="openGame('games/3kh0s/epicbattlefantasy3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>escapingtheprison</h3>
+                <button onclick="openGame('games/3kh0s/escapingtheprison/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>excitebike64</h3>
+                <button onclick="openGame('games/3kh0s/excitebike64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>factoryballs</h3>
+                <button onclick="openGame('games/3kh0s/factoryballs/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fancypantsadventure</h3>
+                <button onclick="openGame('games/3kh0s/fancypantsadventure/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fancypantsadventure2</h3>
+                <button onclick="openGame('games/3kh0s/fancypantsadventure2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fancypantsadventure3</h3>
+                <button onclick="openGame('games/3kh0s/fancypantsadventure3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>feedme</h3>
+                <button onclick="openGame('games/3kh0s/feedme/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>finalfantasytacticsadvance</h3>
+                <button onclick="openGame('games/3kh0s/finalfantasytacticsadvance/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>finalfantasyvi</h3>
+                <button onclick="openGame('games/3kh0s/finalfantasyvi/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>finalninja</h3>
+                <button onclick="openGame('games/3kh0s/finalninja/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fireboywatergirl</h3>
+                <button onclick="openGame('games/3kh0s/fireboywatergirl/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fireemblem</h3>
+                <button onclick="openGame('games/3kh0s/fireemblem/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>flappy</h3>
+                <button onclick="openGame('games/3kh0s/flappy/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fleeingthecomplex</h3>
+                <button onclick="openGame('games/3kh0s/fleeingthecomplex/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>flippyfish</h3>
+                <button onclick="openGame('games/3kh0s/flippyfish/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>floodrunner2</h3>
+                <button onclick="openGame('games/3kh0s/floodrunner2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>floodrunner3</h3>
+                <button onclick="openGame('games/3kh0s/floodrunner3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fnaf</h3>
+                <button onclick="openGame('games/3kh0s/fnaf/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fnaf-2</h3>
+                <button onclick="openGame('games/3kh0s/fnaf-2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fnaf-3</h3>
+                <button onclick="openGame('games/3kh0s/fnaf-3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fnaf-4</h3>
+                <button onclick="openGame('games/3kh0s/fnaf-4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fnf</h3>
+                <button onclick="openGame('games/3kh0s/fnf/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fnfmidfight</h3>
+                <button onclick="openGame('games/3kh0s/fnfmidfight/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fortnite</h3>
+                <button onclick="openGame('games/3kh0s/fortnite/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>frostbite</h3>
+                <button onclick="openGame('games/3kh0s/frostbite/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>frostbite2</h3>
+                <button onclick="openGame('games/3kh0s/frostbite2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fruitninja</h3>
+                <button onclick="openGame('games/3kh0s/fruitninja/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>funnymadracing</h3>
+                <button onclick="openGame('games/3kh0s/funnymadracing/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>funnyshooter2</h3>
+                <button onclick="openGame('games/3kh0s/funnyshooter2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fzero</h3>
+                <button onclick="openGame('games/3kh0s/fzero/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>fzerox</h3>
+                <button onclick="openGame('games/3kh0s/fzerox/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>garfieldgetsreal</h3>
+                <button onclick="openGame('games/3kh0s/garfieldgetsreal/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>gdlite</h3>
+                <button onclick="openGame('games/3kh0s/gdlite/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>geometrydashsky</h3>
+                <button onclick="openGame('games/3kh0s/geometrydashsky/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>geometryrash</h3>
+                <button onclick="openGame('games/3kh0s/geometryrash/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>getawayshootout</h3>
+                <button onclick="openGame('games/3kh0s/getawayshootout/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>gex64</h3>
+                <button onclick="openGame('games/3kh0s/gex64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>goball</h3>
+                <button onclick="openGame('games/3kh0s/goball/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>golddiggerfrvr</h3>
+                <button onclick="openGame('games/3kh0s/golddiggerfrvr/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>goldenaxe</h3>
+                <button onclick="openGame('games/3kh0s/goldenaxe/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>goldeneye007</h3>
+                <button onclick="openGame('games/3kh0s/goldeneye007/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>goldensun</h3>
+                <button onclick="openGame('games/3kh0s/goldensun/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>grandtheftgrotto</h3>
+                <button onclick="openGame('games/3kh0s/grandtheftgrotto/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>gunfest</h3>
+                <button onclick="openGame('games/3kh0s/gunfest/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>gunmayhem</h3>
+                <button onclick="openGame('games/3kh0s/gunmayhem/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>gunmayhem2</h3>
+                <button onclick="openGame('games/3kh0s/gunmayhem2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>gunmayhemredux</h3>
+                <button onclick="openGame('games/3kh0s/gunmayhemredux/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>happywheels</h3>
+                <button onclick="openGame('games/3kh0s/happywheels/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>harvestmoon</h3>
+                <button onclick="openGame('games/3kh0s/harvestmoon/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>harvestmoon64</h3>
+                <button onclick="openGame('games/3kh0s/harvestmoon64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>helixjump</h3>
+                <button onclick="openGame('games/3kh0s/helixjump/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>hexgl</h3>
+                <button onclick="openGame('games/3kh0s/hexgl/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>holeio</h3>
+                <button onclick="openGame('games/3kh0s/holeio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>houseofhazards</h3>
+                <button onclick="openGame('games/3kh0s/houseofhazards/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>icebreaker</h3>
+                <button onclick="openGame('games/3kh0s/icebreaker/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>iceclimber</h3>
+                <button onclick="openGame('games/3kh0s/iceclimber/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>illusionofgaia</h3>
+                <button onclick="openGame('games/3kh0s/illusionofgaia/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>infiltratingtheairship</h3>
+                <button onclick="openGame('games/3kh0s/infiltratingtheairship/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>infinitecraft</h3>
+                <button onclick="openGame('games/3kh0s/infinitecraft/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>jetforcegemini</h3>
+                <button onclick="openGame('games/3kh0s/jetforcegemini/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>jetpackjoyride</h3>
+                <button onclick="openGame('games/3kh0s/jetpackjoyride/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>justfalllol</h3>
+                <button onclick="openGame('games/3kh0s/justfalllol/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kidicarus</h3>
+                <button onclick="openGame('games/3kh0s/kidicarus/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kirby64</h3>
+                <button onclick="openGame('games/3kh0s/kirby64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kirbyamazingmirror</h3>
+                <button onclick="openGame('games/3kh0s/kirbyamazingmirror/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kirbymassattack</h3>
+                <button onclick="openGame('games/3kh0s/kirbymassattack/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kirbypowerpaintbrush</h3>
+                <button onclick="openGame('games/3kh0s/kirbypowerpaintbrush/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kirbysdreamland</h3>
+                <button onclick="openGame('games/3kh0s/kirbysdreamland/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>kirbysdreamland2</h3>
+                <button onclick="openGame('games/3kh0s/kirbysdreamland2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>knifehit</h3>
+                <button onclick="openGame('games/3kh0s/knifehit/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>lazyjump3d</h3>
+                <button onclick="openGame('games/3kh0s/lazyjump3d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>learntofly</h3>
+                <button onclick="openGame('games/3kh0s/learntofly/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>learntofly2</h3>
+                <button onclick="openGame('games/3kh0s/learntofly2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>learntofly3</h3>
+                <button onclick="openGame('games/3kh0s/learntofly3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>legobatman</h3>
+                <button onclick="openGame('games/3kh0s/legobatman/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>linerider</h3>
+                <button onclick="openGame('games/3kh0s/linerider/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>linksawakeningdx</h3>
+                <button onclick="openGame('games/3kh0s/linksawakeningdx/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>linktothepast</h3>
+                <button onclick="openGame('games/3kh0s/linktothepast/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>lowsadventures2</h3>
+                <button onclick="openGame('games/3kh0s/lowsadventures2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>majorasmask</h3>
+                <button onclick="openGame('games/3kh0s/majorasmask/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>marioandluigipartnersintime</h3>
+                <button onclick="openGame('games/3kh0s/marioandluigipartnersintime/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariocombat</h3>
+                <button onclick="openGame('games/3kh0s/mariocombat/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariogolf</h3>
+                <button onclick="openGame('games/3kh0s/mariogolf/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariokart64</h3>
+                <button onclick="openGame('games/3kh0s/mariokart64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariokartds</h3>
+                <button onclick="openGame('games/3kh0s/mariokartds/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariokartsupercircuit</h3>
+                <button onclick="openGame('games/3kh0s/mariokartsupercircuit/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariopaint</h3>
+                <button onclick="openGame('games/3kh0s/mariopaint/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>marioparty</h3>
+                <button onclick="openGame('games/3kh0s/marioparty/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>marioparty2</h3>
+                <button onclick="openGame('games/3kh0s/marioparty2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>marioparty3</h3>
+                <button onclick="openGame('games/3kh0s/marioparty3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariopartyadvance</h3>
+                <button onclick="openGame('games/3kh0s/mariopartyadvance/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariopartyds</h3>
+                <button onclick="openGame('games/3kh0s/mariopartyds/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariopinballland</h3>
+                <button onclick="openGame('games/3kh0s/mariopinballland/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mariotennis</h3>
+                <button onclick="openGame('games/3kh0s/mariotennis/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mc</h3>
+                <button onclick="openGame('games/3kh0s/mc/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mcclassic</h3>
+                <button onclick="openGame('games/3kh0s/mcclassic/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mctowerdefence2</h3>
+                <button onclick="openGame('games/3kh0s/mctowerdefence2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>megaman2</h3>
+                <button onclick="openGame('games/3kh0s/megaman2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>megamanx</h3>
+                <button onclick="openGame('games/3kh0s/megamanx/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>megamanzero</h3>
+                <button onclick="openGame('games/3kh0s/megamanzero/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>metalgearsolid</h3>
+                <button onclick="openGame('games/3kh0s/metalgearsolid/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>metroid</h3>
+                <button onclick="openGame('games/3kh0s/metroid/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>metroidfusion</h3>
+                <button onclick="openGame('games/3kh0s/metroidfusion/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>metroidii</h3>
+                <button onclick="openGame('games/3kh0s/metroidii/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>minesweeper</h3>
+                <button onclick="openGame('games/3kh0s/minesweeper/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>monkeymart</h3>
+                <button onclick="openGame('games/3kh0s/monkeymart/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>monkeymart_5.2</h3>
+                <button onclick="openGame('games/3kh0s/monkeymart_5.2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>monopoly</h3>
+                <button onclick="openGame('games/3kh0s/monopoly/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>monsterbrawl</h3>
+                <button onclick="openGame('games/3kh0s/monsterbrawl/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>            
+            <div class="game-card">
+                <h3>mortalkombat4</h3>
+                <button onclick="openGame('games/3kh0s/mortalkombat4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mother3</h3>
+                <button onclick="openGame('games/3kh0s/mother3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>motox3m</h3>
+                <button onclick="openGame('games/3kh0s/motox3m/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>motox3mpool</h3>
+                <button onclick="openGame('games/3kh0s/motox3mpool/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>motox3mspooky</h3>
+                <button onclick="openGame('games/3kh0s/motox3mspooky/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>motox3mwinter</h3>
+                <button onclick="openGame('games/3kh0s/motox3mwinter/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>multitask</h3>
+                <button onclick="openGame('games/3kh0s/multitask/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mutiny</h3>
+                <button onclick="openGame('games/3kh0s/mutiny/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>mysticalninja</h3>
+                <button onclick="openGame('games/3kh0s/mysticalninja/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>neonrider</h3>
+                <button onclick="openGame('games/3kh0s/neonrider/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>newsupermariobros</h3>
+                <button onclick="openGame('games/3kh0s/newsupermariobros/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ngon</h3>
+                <button onclick="openGame('games/3kh0s/ngon/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ninjagaiden</h3>
+                <button onclick="openGame('games/3kh0s/ninjagaiden/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>nintendogs</h3>
+                <button onclick="openGame('games/3kh0s/nintendogs/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>nitromemustdie</h3>
+                <button onclick="openGame('games/3kh0s/nitromemustdie/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ocarinaoftime</h3>
+                <button onclick="openGame('games/3kh0s/ocarinaoftime/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>offlineparadise</h3>
+                <button onclick="openGame('games/3kh0s/offlineparadise/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>oodlegobs</h3>
+                <button onclick="openGame('games/3kh0s/oodlegobs/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>osumania</h3>
+                <button onclick="openGame('games/3kh0s/osumania/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ovo</h3>
+                <button onclick="openGame('games/3kh0s/ovo/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pacman</h3>
+                <button onclick="openGame('games/3kh0s/pacman/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pacmanworld</h3>
+                <button onclick="openGame('games/3kh0s/pacmanworld/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pakohighway</h3>
+                <button onclick="openGame('games/3kh0s/pakohighway/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pandemic2</h3>
+                <button onclick="openGame('games/3kh0s/pandemic2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papalouie</h3>
+                <button onclick="openGame('games/3kh0s/papalouie/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papalouie2</h3>
+                <button onclick="openGame('games/3kh0s/papalouie2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papalouie3</h3>
+                <button onclick="openGame('games/3kh0s/papalouie3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papasbakeria</h3>
+                <button onclick="openGame('games/3kh0s/papasbakeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papasburgeria</h3>
+                <button onclick="openGame('games/3kh0s/papasburgeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papascheeseria</h3>
+                <button onclick="openGame('games/3kh0s/papascheeseria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papascupcakeria</h3>
+                <button onclick="openGame('games/3kh0s/papascupcakeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papasdonuteria</h3>
+                <button onclick="openGame('games/3kh0s/papasdonuteria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papasfreezeria</h3>
+                <button onclick="openGame('games/3kh0s/papasfreezeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papashotdoggeria</h3>
+                <button onclick="openGame('games/3kh0s/papashotdoggeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papaspancakeria</h3>
+                <button onclick="openGame('games/3kh0s/papaspancakeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papaspastaria</h3>
+                <button onclick="openGame('games/3kh0s/papaspastaria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papaspizzaria</h3>
+                <button onclick="openGame('games/3kh0s/papaspizzaria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papasscooperia</h3>
+                <button onclick="openGame('games/3kh0s/papasscooperia/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papassushiria</h3>
+                <button onclick="openGame('games/3kh0s/papassushiria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papastacomia</h3>
+                <button onclick="openGame('games/3kh0s/papastacomia/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papaswingeria</h3>
+                <button onclick="openGame('games/3kh0s/papaswingeria/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>paperio2</h3>
+                <button onclick="openGame('games/3kh0s/paperio2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>paperio3d</h3>
+                <button onclick="openGame('games/3kh0s/paperio3d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>papermario</h3>
+                <button onclick="openGame('games/3kh0s/papermario/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pickcrafter</h3>
+                <button onclick="openGame('games/3kh0s/pickcrafter/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>picrossds</h3>
+                <button onclick="openGame('games/3kh0s/picrossds/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pizzatower</h3>
+                <button onclick="openGame('games/3kh0s/pizzatower/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemondiamond</h3>
+                <button onclick="openGame('games/3kh0s/pokemondiamond/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonemerald</h3>
+                <button onclick="openGame('games/3kh0s/pokemonemerald/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonfirered</h3>
+                <button onclick="openGame('games/3kh0s/pokemonfirered/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonleafgreen</h3>
+                <button onclick="openGame('games/3kh0s/pokemonleafgreen/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonmysterydungeon</h3>
+                <button onclick="openGame('games/3kh0s/pokemonmysterydungeon/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonplatinum</h3>
+                <button onclick="openGame('games/3kh0s/pokemonplatinum/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonruby</h3>
+                <button onclick="openGame('games/3kh0s/pokemonruby/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonsapphire</h3>
+                <button onclick="openGame('games/3kh0s/pokemonsapphire/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonsnap</h3>
+                <button onclick="openGame('games/3kh0s/pokemonsnap/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonsoulsilver</h3>
+                <button onclick="openGame('games/3kh0s/pokemonsoulsilver/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonstadium</h3>
+                <button onclick="openGame('games/3kh0s/pokemonstadium/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonunbound</h3>
+                <button onclick="openGame('games/3kh0s/pokemonunbound/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pokemonyellow</h3>
+                <button onclick="openGame('games/3kh0s/pokemonyellow/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>pool</h3>
+                <button onclick="openGame('games/3kh0s/pool/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>portal</h3>
+                <button onclick="openGame('games/3kh0s/portal/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>portal2</h3>
+                <button onclick="openGame('games/3kh0s/portal2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>precisionclient</h3>
+                <button onclick="openGame('games/3kh0s/precisionclient/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>professorlayton</h3>
+                <button onclick="openGame('games/3kh0s/professorlayton/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>punchout</h3>
+                <button onclick="openGame('games/3kh0s/punchout/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>quest64</h3>
+                <button onclick="openGame('games/3kh0s/quest64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>rabbitsamurai</h3>
+                <button onclick="openGame('games/3kh0s/rabbitsamurai/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>raftwars</h3>
+                <button onclick="openGame('games/3kh0s/raftwars/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>raftwars2</h3>
+                <button onclick="openGame('games/3kh0s/raftwars2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>rayman3</h3>
+                <button onclick="openGame('games/3kh0s/rayman3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>recoil</h3>
+                <button onclick="openGame('games/3kh0s/recoil/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>redball1</h3>
+                <button onclick="openGame('games/3kh0s/redball1/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>redball3</h3>
+                <button onclick="openGame('games/3kh0s/redball3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>redball4</h3>
+                <button onclick="openGame('games/3kh0s/redball4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>redballv2</h3>
+                <button onclick="openGame('games/3kh0s/redballv2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>redballv3</h3>
+                <button onclick="openGame('games/3kh0s/redballv3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>retrobowl</h3>
+                <button onclick="openGame('games/3kh0s/retrobowl/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>riddleschool</h3>
+                <button onclick="openGame('games/3kh0s/riddleschool/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>risehigher</h3>
+                <button onclick="openGame('games/3kh0s/risehigher/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>roblox</h3>
+                <button onclick="openGame('games/3kh0s/roblox/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>rocketsoccer</h3>
+                <button onclick="openGame('games/3kh0s/rocketsoccer/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>rooftop</h3>
+                <button onclick="openGame('games/3kh0s/rooftop/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>rooftop2</h3>
+                <button onclick="openGame('games/3kh0s/rooftop2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>roughdino</h3>
+                <button onclick="openGame('games/3kh0s/roughdino/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>run</h3>
+                <button onclick="openGame('games/3kh0s/run/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>run2</h3>
+                <button onclick="openGame('games/3kh0s/run2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>run3</h3>
+                <button onclick="openGame('games/3kh0s/run3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>run3plus</h3>
+                <button onclick="openGame('games/3kh0s/run3plus/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sandtrix</h3>
+                <button onclick="openGame('games/3kh0s/sandtrix/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>scribblenauts</h3>
+                <button onclick="openGame('games/3kh0s/scribblenauts/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shapeshipper</h3>
+                <button onclick="openGame('games/3kh0s/shapeshipper/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shift</h3>
+                <button onclick="openGame('games/3kh0s/shift/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shift2</h3>
+                <button onclick="openGame('games/3kh0s/shift2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shift3</h3>
+                <button onclick="openGame('games/3kh0s/shift3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shift4</h3>
+                <button onclick="openGame('games/3kh0s/shift4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shopempire</h3>
+                <button onclick="openGame('games/3kh0s/shopempire/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shopempirefable</h3>
+                <button onclick="openGame('games/3kh0s/shopempirefable/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>shrek2</h3>
+                <button onclick="openGame('games/3kh0s/shrek2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>simcity</h3>
+                <button onclick="openGame('games/3kh0s/simcity/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>            
+            <div class="game-card">
+                <h3>simpsonsroadrage</h3>
+                <button onclick="openGame('games/3kh0s/simpsonsroadrage/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>skibidi1v100</h3>
+                <button onclick="openGame('games/3kh0s/skibidi1v100/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>skibiditoiletattack</h3>
+                <button onclick="openGame('games/3kh0s/skibiditoiletattack/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>skywire</h3>
+                <button onclick="openGame('games/3kh0s/skywire/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>skywire2</h3>
+                <button onclick="openGame('games/3kh0s/skywire2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>slope</h3>
+                <button onclick="openGame('games/3kh0s/slope/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>slope2</h3>
+                <button onclick="openGame('games/3kh0s/slope2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>slopeball</h3>
+                <button onclick="openGame('games/3kh0s/slopeball/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>slopecity</h3>
+                <button onclick="openGame('games/3kh0s/slopecity/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sm64</h3>
+                <button onclick="openGame('games/3kh0s/sm64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sm64ds</h3>
+                <button onclick="openGame('games/3kh0s/sm64ds/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>snake</h3>
+                <button onclick="openGame('games/3kh0s/snake/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>snowbattleio</h3>
+                <button onclick="openGame('games/3kh0s/snowbattleio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>snowrider3d</h3>
+                <button onclick="openGame('games/3kh0s/snowrider3d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>soccerrandom</h3>
+                <button onclick="openGame('games/3kh0s/soccerrandom/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>solitaire</h3>
+                <button onclick="openGame('games/3kh0s/solitaire/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sonicadvance</h3>
+                <button onclick="openGame('games/3kh0s/sonicadvance/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sonicadvance2</h3>
+                <button onclick="openGame('games/3kh0s/sonicadvance2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sonicandknuckles</h3>
+                <button onclick="openGame('games/3kh0s/sonicandknuckles/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sonicrush</h3>
+                <button onclick="openGame('games/3kh0s/sonicrush/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sonicspinball</h3>
+                <button onclick="openGame('games/3kh0s/sonicspinball/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sortthecourt</h3>
+                <button onclick="openGame('games/3kh0s/sortthecourt/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>spaceinvaders</h3>
+                <button onclick="openGame('games/3kh0s/spaceinvaders/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>spirittracks</h3>
+                <button onclick="openGame('games/3kh0s/spirittracks/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sprinter</h3>
+                <button onclick="openGame('games/3kh0s/sprinter/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stack</h3>
+                <button onclick="openGame('games/3kh0s/stack/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stairrace3d</h3>
+                <button onclick="openGame('games/3kh0s/stairrace3d/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>starfox64</h3>
+                <button onclick="openGame('games/3kh0s/starfox64/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stateio</h3>
+                <button onclick="openGame('games/3kh0s/stateio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>steakandjake</h3>
+                <button onclick="openGame('games/3kh0s/steakandjake/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>steakandjakemidnightmarch</h3>
+                <button onclick="openGame('games/3kh0s/steakandjakemidnightmarch/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stealingthediamond</h3>
+                <button onclick="openGame('games/3kh0s/stealingthediamond/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stickmanboost</h3>
+                <button onclick="openGame('games/3kh0s/stickmanboost/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stickmanclimb</h3>
+                <button onclick="openGame('games/3kh0s/stickmanclimb/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stickmangolf</h3>
+                <button onclick="openGame('games/3kh0s/stickmangolf/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stickmanhook</h3>
+                <button onclick="openGame('games/3kh0s/stickmanhook/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stickwar</h3>
+                <button onclick="openGame('games/3kh0s/stickwar/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>stickwar2</h3>
+                <button onclick="openGame('games/3kh0s/stickwar2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>streetfighter2</h3>
+                <button onclick="openGame('games/3kh0s/streetfighter2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>streetsofrage</h3>
+                <button onclick="openGame('games/3kh0s/streetsofrage/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>subwayrunner</h3>
+                <button onclick="openGame('games/3kh0s/subwayrunner/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>subwaysurfers</h3>
+                <button onclick="openGame('games/3kh0s/subwaysurfers/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>sudoku</h3>
+                <button onclick="openGame('games/3kh0s/sudoku/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>superbomberman</h3>
+                <button onclick="openGame('games/3kh0s/superbomberman/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>superherodrop</h3>
+                <button onclick="openGame('games/3kh0s/superherodrop/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>superhot</h3>
+                <button onclick="openGame('games/3kh0s/superhot/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermariobros</h3>
+                <button onclick="openGame('games/3kh0s/supermariobros/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermariobros2</h3>
+                <button onclick="openGame('games/3kh0s/supermariobros2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermariobros3</h3>
+                <button onclick="openGame('games/3kh0s/supermariobros3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermarioconstruct</h3>
+                <button onclick="openGame('games/3kh0s/supermarioconstruct/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>           
+            <div class="game-card">
+                <h3>supermarioflash</h3>
+                <button onclick="openGame('games/3kh0s/supermarioflash/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermarioflash2</h3>
+                <button onclick="openGame('games/3kh0s/supermarioflash2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermariokart</h3>
+                <button onclick="openGame('games/3kh0s/supermariokart/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermarioland</h3>
+                <button onclick="openGame('games/3kh0s/supermarioland/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermarioland2</h3>
+                <button onclick="openGame('games/3kh0s/supermarioland2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermariorpg</h3>
+                <button onclick="openGame('games/3kh0s/supermariorpg/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermarioworld</h3>
+                <button onclick="openGame('games/3kh0s/supermarioworld/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermeatboy</h3>
+                <button onclick="openGame('games/3kh0s/supermeatboy/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermetroid</h3>
+                <button onclick="openGame('games/3kh0s/supermetroid/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supermonkeyballjr</h3>
+                <button onclick="openGame('games/3kh0s/supermonkeyballjr/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>superprincesspeach</h3>
+                <button onclick="openGame('games/3kh0s/superprincesspeach/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supersmashbros</h3>
+                <button onclick="openGame('games/3kh0s/supersmashbros/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supersmashflash</h3>
+                <button onclick="openGame('games/3kh0s/supersmashflash/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>superstarsaga</h3>
+                <button onclick="openGame('games/3kh0s/superstarsaga/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supertennis</h3>
+                <button onclick="openGame('games/3kh0s/supertennis/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>supertreadmill</h3>
+                <button onclick="openGame('games/3kh0s/supertreadmill/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>surf</h3>
+                <button onclick="openGame('games/3kh0s/surf/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>swindler</h3>
+                <button onclick="openGame('games/3kh0s/swindler/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>swordsandsandals</h3>
+                <button onclick="openGame('games/3kh0s/swordsandsandals/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>swordsandsandals2</h3>
+                <button onclick="openGame('games/3kh0s/swordsandsandals2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tabs</h3>
+                <button onclick="openGame('games/3kh0s/tabs/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tanukisunset</h3>
+                <button onclick="openGame('games/3kh0s/tanukisunset/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>templerun2</h3>
+                <button onclick="openGame('games/3kh0s/templerun2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>territorialio</h3>
+                <button onclick="openGame('games/3kh0s/territorialio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>testsubjectarena</h3>
+                <button onclick="openGame('games/3kh0s/testsubjectarena/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>testsubjectcomplete</h3>
+                <button onclick="openGame('games/3kh0s/testsubjectcomplete/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tetris</h3>
+                <button onclick="openGame('games/3kh0s/tetris/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tetrisds</h3>
+                <button onclick="openGame('games/3kh0s/tetrisds/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thebindingofisaac</h3>
+                <button onclick="openGame('games/3kh0s/thebindingofisaac/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>theimpossiblequiz</h3>
+                <button onclick="openGame('games/3kh0s/theimpossiblequiz/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>theimpossiblequiz2</h3>
+                <button onclick="openGame('games/3kh0s/theimpossiblequiz2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thelegendofzelda</h3>
+                <button onclick="openGame('games/3kh0s/thelegendofzelda/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>themehotel</h3>
+                <button onclick="openGame('games/3kh0s/themehotel/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thereisnogame</h3>
+                <button onclick="openGame('games/3kh0s/thereisnogame/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thesims2</h3>
+                <button onclick="openGame('games/3kh0s/thesims2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thesims3</h3>
+                <button onclick="openGame('games/3kh0s/thesims3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thisistheonlylevel</h3>
+                <button onclick="openGame('games/3kh0s/thisistheonlylevel/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>thumbfighter</h3>
+                <button onclick="openGame('games/3kh0s/thumbfighter/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>timeshooter1</h3>
+                <button onclick="openGame('games/3kh0s/timeshooter1/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>timeshooter2</h3>
+                <button onclick="openGame('games/3kh0s/timeshooter2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>timeshooter3</h3>
+                <button onclick="openGame('games/3kh0s/timeshooter3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tinyfishing</h3>
+                <button onclick="openGame('games/3kh0s/tinyfishing/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>townscaper</h3>
+                <button onclick="openGame('games/3kh0s/townscaper/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tron</h3>
+                <button onclick="openGame('games/3kh0s/tron/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tubejumpers</h3>
+                <button onclick="openGame('games/3kh0s/tubejumpers/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>tunnelrush</h3>
+                <button onclick="openGame('games/3kh0s/tunnelrush/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>turokdinosaurhunter</h3>
+                <button onclick="openGame('games/3kh0s/turokdinosaurhunter/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>twinshot</h3>
+                <button onclick="openGame('games/3kh0s/twinshot/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>twinshot2</h3>
+                <button onclick="openGame('games/3kh0s/twinshot2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>ultimateflashsonic</h3>
+                <button onclick="openGame('games/3kh0s/ultimateflashsonic/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>            
+            <div class="game-card">
+                <h3>unfairmario</h3>
+                <button onclick="openGame('games/3kh0s/unfairmario/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex</h3>
+                <button onclick="openGame('games/3kh0s/vex/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex2</h3>
+                <button onclick="openGame('games/3kh0s/vex2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex3</h3>
+                <button onclick="openGame('games/3kh0s/vex3/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex4</h3>
+                <button onclick="openGame('games/3kh0s/vex4/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex5</h3>
+                <button onclick="openGame('games/3kh0s/vex5/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex6</h3>
+                <button onclick="openGame('games/3kh0s/vex6/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>vex7</h3>
+                <button onclick="openGame('games/3kh0s/vex7/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>warbrokers</h3>
+                <button onclick="openGame('games/3kh0s/warbrokers/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wareditor</h3>
+                <button onclick="openGame('games/3kh0s/wareditor/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>warsmasher</h3>
+                <button onclick="openGame('games/3kh0s/warsmasher/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>whackyourboss</h3>
+                <button onclick="openGame('games/3kh0s/whackyourboss/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>whackyourcomputer</h3>
+                <button onclick="openGame('games/3kh0s/whackyourcomputer/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>whackyourteacher</h3>
+                <button onclick="openGame('games/3kh0s/whackyourteacher/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wheeliecross</h3>
+                <button onclick="openGame('games/3kh0s/wheeliecross/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wheeloffortune</h3>
+                <button onclick="openGame('games/3kh0s/wheeloffortune/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wheresmyblankie</h3>
+                <button onclick="openGame('games/3kh0s/wheresmyblankie/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wheresmycat</h3>
+                <button onclick="openGame('games/3kh0s/wheresmycat/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>whittymodfnf</h3>
+                <button onclick="openGame('games/3kh0s/whittymodfnf/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wormaxio</h3>
+                <button onclick="openGame('games/3kh0s/wormaxio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wormateio</h3>
+                <button onclick="openGame('games/3kh0s/wormateio/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>wormszone</h3>
+                <button onclick="openGame('games/3kh0s/wormszone/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>worldbox</h3>
+                <button onclick="openGame('games/3kh0s/worldbox/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zeldaocarinaoftime</h3>
+                <button onclick="openGame('games/3kh0s/zeldaocarinaoftime/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zeldaoracleofages</h3>
+                <button onclick="openGame('games/3kh0s/zeldaoracleofages/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zeldaoracleofseasons</h3>
+                <button onclick="openGame('games/3kh0s/zeldaoracleofseasons/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zeldatearsofkingdom</h3>
+                <button onclick="openGame('games/3kh0s/zeldatearsofkingdom/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zeldaweedbetweenworlds</h3>
+                <button onclick="openGame('games/3kh0s/zeldaweedbetweenworlds/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zeldaweedwaker</h3>
+                <button onclick="openGame('games/3kh0s/zeldaweedwaker/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zombies</h3>
+                <button onclick="openGame('games/3kh0s/zombies/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zombotron</h3>
+                <button onclick="openGame('games/3kh0s/zombotron/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            <div class="game-card">
+                <h3>zombotron2</h3>
+                <button onclick="openGame('games/3kh0s/zombotron2/index.html')">
+                    <i class="fas fa-play"></i> Play Now
+                </button>
+            </div>
+            </section>
+        </main>
+       
+        <footer>
+            <p>© 2023 CodeX Gaming. All rights reserved. <i class="fas fa-code"></i> with <i class="fas fa-heart" style="color: var(--primary);"></i></p>
+        </footer>
+       
+        <div class="page-transition"></div>
+       
+        <script src="script.js"></script>
+        <script>
+            function applyWebsiteSettings() {
+              const savedSettingsJSON = localStorage.getItem('websiteSettings');
+              if (savedSettingsJSON) {
+                try {
+                  const savedSettings = JSON.parse(savedSettingsJSON);
+                  if (savedSettings.title) document.title = savedSettings.title;
+                  if (savedSettings.favicon) {
+                    let faviconLink = document.querySelector('link[rel="icon"]');
+                    if (!faviconLink) {
+                      faviconLink = document.createElement('link');
+                      faviconLink.rel = 'icon';
+                      document.head.appendChild(faviconLink);
+                    }
+                    faviconLink.href = savedSettings.favicon;
+                  }
+                  if (savedSettings.theme) document.body.className = savedSettings.theme;
+                } catch (error) {
+                  console.error('Error applying website settings:', error);
+                }
+              }
+            }
+            applyWebsiteSettings();
+            window.addEventListener('storage', function(e) {
+              if (e.key === 'settingsUpdated' || e.key === 'websiteSettings') {
+                applyWebsiteSettings();
+              }
+            });
+          </script>
+      </body>
+    </html>
+    
